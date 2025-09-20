@@ -2,8 +2,20 @@
 # Week-0
 ## SoC Design flow
 <img width="1149" height="585" alt="image" src="https://github.com/user-attachments/assets/9da2bda6-4362-4d0d-af89-ad123c062b6a" />
-Learnt about how an SoC is designed from gcc output as reference and then extrapolating that to hardware , then writing the RTL design for the SoC , during sythesis digital elements are to be synthesizable by gates and analog stuff by mosfets.
-All this is then integrated to an SoC , and later floorplanning , place and route.
+
+Key learnings:
+- Gained insight into how a **System-on-Chip (SoC)** is designed, beginning with understanding the **GCC compiler output** as a reference for expected hardware behavior.
+- Learned how to **translate software-level operations** into **hardware-level RTL design** (Register Transfer Level).
+- Understood that:
+  - During **synthesis**, **digital logic elements** are mapped to standard gates.
+  - **Analog components**, if any, are mapped at the **transistor level** (MOSFETs).
+- Realized the importance of how all these building blocks are **integrated into a complete SoC**, setting the stage for:
+  - **Floorplanning**
+  - **Placement**
+  - **Routing**
+  - And eventually generating the **GDSII** layout used for fabrication.
+
+
 
 ## Installing necesarry software
 ### yosys
